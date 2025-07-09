@@ -4,7 +4,7 @@ tools {
 maven 'Maven'
 }
 environment{
-SONAR_URL="http://URL_SONAR:9000"
+SONAR_URL="http://localhost:9000"
 }
 stages {
 stage("Source") {
