@@ -49,7 +49,7 @@
 			<sonar.host.url> http://localhost:9000</sonar.host.url>
 
 			<!-- <sonar.password>Titim19980507/</sonar.password>-->
-			<sonar.token>sqa_424faa954d6c3305bb47394497635219197a9dbd</sonar.token>
+			<sonar.token>sqa_7af1b9491061371df2445e5fce4df204494400ed</sonar.token>
 			</properties>
 			</profile>
 	</profiles>
