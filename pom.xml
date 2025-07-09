@@ -31,11 +31,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.sonarsource.scanner.maven</groupId>
-			<artifactId>sonar-maven-plugin</artifactId>
-			<version>3.7.0.1746</version>
-		</dependency>
+<dependency>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>5.1.0.4751</version>
+</dependency>
 	</dependencies>
 	<profiles>
 			<profile>
@@ -46,10 +46,8 @@
 			<properties>
 			<!-- Optional URL to server. Default value is
 			http://localhost:9000 -->
-			<sonar.host.url>
-			http://localhost:9000
-			</sonar.host.url>
-			<sonar.login>admin</sonar.login>
+			<sonar.host.url> http://localhost:9000</sonar.host.url>
+
 			<!-- <sonar.password>Titim19980507/</sonar.password>-->
 			<sonar.token>sqa_424faa954d6c3305bb47394497635219197a9dbd</sonar.token>
 			</properties>
